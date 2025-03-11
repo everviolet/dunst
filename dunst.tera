@@ -1,0 +1,28 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/evergarden-{{flavor.identifier}}-{{accent}}.toml"
+---
+{% set accent = flavor.colors[accent] %}
+[global]
+background = "#{{base.hex}}"
+foreground = "#{{text.hex}}"
+frame_color = "#{{accent.hex}}"
+
+[urgency_low]
+background = "#{{base.hex}}"
+foreground = "#{{overlay2.hex}}"
+frame_color = "#{{overlay2.hex}}"
+
+[urgency_normal]
+background = "#{{base.hex}}"
+foreground = "#{{text.hex}}"
+frame_color = "#{{accent.hex}}"
+
+[urgency_critical]
+background = "#{{base.hex}}"
+foreground = "#{{text.hex}}"
+frame_color = "#{{red.hex}}"

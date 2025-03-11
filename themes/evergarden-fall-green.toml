@@ -1,0 +1,20 @@
+
+[global]
+background = "#232a2e"
+foreground = "#dddecf"
+frame_color = "#b2c98f"
+
+[urgency_low]
+background = "#232a2e"
+foreground = "#839e9a"
+frame_color = "#839e9a"
+
+[urgency_normal]
+background = "#232a2e"
+foreground = "#dddecf"
+frame_color = "#b2c98f"
+
+[urgency_critical]
+background = "#232a2e"
+foreground = "#dddecf"
+frame_color = "#e67e80"
