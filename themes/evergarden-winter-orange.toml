@@ -2,7 +2,7 @@
 [global]
 background = "#1d2428"
 foreground = "#dddecf"
-frame_color = "#e69875"
+frame_color = "#e69f7f"
 
 [urgency_low]
 background = "#1d2428"
@@ -12,7 +12,7 @@ frame_color = "#839e9a"
 [urgency_normal]
 background = "#1d2428"
 foreground = "#dddecf"
-frame_color = "#e69875"
+frame_color = "#e69f7f"
 
 [urgency_critical]
 background = "#1d2428"
