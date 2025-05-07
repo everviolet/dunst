@@ -1,8 +1,8 @@
 
 [global]
 background = "#1d2428"
-foreground = "#dddecf"
-frame_color = "#e69f7f"
+foreground = "#f8f9e8"
+frame_color = "#f7a182"
 
 [urgency_low]
 background = "#1d2428"
@@ -11,10 +11,10 @@ frame_color = "#839e9a"
 
 [urgency_normal]
 background = "#1d2428"
-foreground = "#dddecf"
-frame_color = "#e69f7f"
+foreground = "#f8f9e8"
+frame_color = "#f7a182"
 
 [urgency_critical]
 background = "#1d2428"
-foreground = "#dddecf"
-frame_color = "#e67e80"
+foreground = "#f8f9e8"
+frame_color = "#f57f82"
